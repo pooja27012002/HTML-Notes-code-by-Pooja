@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div tag</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 500px;
+            background-color: grey;
+        }
+        #parent-row-1{
+            width: 500px;
+            height: 250px;
+            background-color: bisque;
+        }
+        #parent-row-2{
+            width: 500px;
+            height: 250px;
+            background-color: rgb(240, 175, 94);
+        }
+        .col-1{
+            width: 250px;
+            height: 250px;
+            background-color: red;
+            float: left;
+        }
+        .col-2{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(17, 242, 17);
+            float: left;
+        }
+        .col-3{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(7, 202, 241);
+            float: left;
+        }
+        .col-4{
+            width: 250px;
+            height: 250px;
+            background-color: yellow;
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="main">
+            <div id="parent-row-1"><!--Parent row 1-->
+                <div class="col-1">Home</div><!--col1-->
+                <div class="col-2">About</div>
+            </div>
+            <div id="parent-row-2">
+                <div class="col-3">Gallery</div><!--Parent row 2-->
+                <div class="col-4">Course</div><!--col2-->
+            </div>
+        </div>
+</body>
+</html>
